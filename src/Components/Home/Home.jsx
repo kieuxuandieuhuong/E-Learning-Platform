@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import "./Home.css";
+import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
   return (
-    <div>Intro</div>
-  )
-}
+  <Fragment>
+    <Navbar/>
+  </Fragment>
+  );
+};
+
 
 export default Home
