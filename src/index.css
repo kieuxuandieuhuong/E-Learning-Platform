@@ -1,0 +1,45 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline:auto;
+}
+:root {
+    --container-width-lg:80%;
+    --container-width-md:90%;
+    --transition: all 500ms ease;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    line-height: 1.7;
+    overflow-x: hidden;
+
+}
+
+h1, h2,h3,h4,h5{
+    line-height: 1.2;
+    color: rgb(97, 94, 94);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+a{
+    color: #17181a;;
+}
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
