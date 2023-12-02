@@ -17,10 +17,17 @@ const Information = () => {
             <p>
             We believe that the inspiration and deep expertise of our instructors will be a significant source of motivation for your successful learning.
             </p>
-            <spna>
-                
-            </spna>
-            <Link to ='/Course' className='Startlearning_button'> Start Learning</Link>
+            <ul>
+                <li>Effectiveness</li>
+                <li>Expertise</li>
+            <br></br>
+            </ul>
+            <ul>
+                <li>Experienced</li>
+                <li>Professional guidance</li>
+                <br></br>
+            </ul>
+            <Link to ='/courses' className='Startlearning_button'> Start Learning</Link>
         </div>
     </div>
     </div>
