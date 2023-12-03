@@ -3,6 +3,7 @@ import Header from './Header'
 import './Home.css'
 import Information from './Information'
 import Popular from './Popular'
+import Testimonials from './Testimonials'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
     <Header />
     <Information />
     <Popular />
+    <Testimonials />
     </>
     
   )

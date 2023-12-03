@@ -86,20 +86,14 @@ color: #fff;
 }
 .Startlearning_button{
     width: fit-content;
+   display: block;
+   padding: 0.9rem;
     border-radius: 10px;
-    font-size: 1rem;
     background:  #0e3ecd;
    box-shadow: 2px 2px 24px 0px rgba(78, 104, 236, 0.212);
    transition: var(--transition);
    color: #fff; 
      cursor: pointer;
-     display: inline-flex;
-     justify-content: center;
-     min-height: 3rem;
-     padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-     position: relative;
-     text-decoration: none;
-     transition: all 250ms;
    }
    
    .Startlearning_button,

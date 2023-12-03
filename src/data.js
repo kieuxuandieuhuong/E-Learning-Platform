@@ -389,36 +389,36 @@ export const testimonials = [
     {
         id: 1,
         name: "Alice Johnson",
-        quote: "I thoroughly enjoyed the Introduction to Programming course. The content was well-structured and easy to follow.",
-        job: "Student",
+        quote: "I thoroughly enjoyed the course for beginners. The content was well-structured and easy to follow.",
+        courses:"Learn HTML and CSS for Beginners" ,
         avatar: require("./Images/avatar1.jpg")
     },
     {
         id: 2,
         name: "Bob Smith",
-        quote: "The Web Development Fundamentals course provided me with a solid foundation for building websites. Highly recommended!",
-        job: "Web Developer",
+        quote: "This course provided me with a solid foundation for being an UX Designer. Highly recommended!",
+        courses :"UX Research and Prototyping",
         avatar: require("./Images/avatar2.jpg")
     },
     {
         id: 3,
         name: "Charlie Brown",
-        quote: "Data Science Essentials helped me kickstart my career in data analysis. The lessons were practical and engaging.",
-        job: "Data Analyst",
+        quote: "I used to struggle with learning the JavaScript language; however, this course has helped me overcome that.",
+        courses: 'Javasript from Zero',
         avatar: require("./Images/avatar3.jpg")
     },
     {
         id: 4,
         name: "David Miller",
-        quote: "Mobile App Development course gave me the skills to create my own apps. The hands-on projects were fantastic!",
-        job: "App Developer",
+        quote: "A concise and effective introduction to data analysis with Python, providing clear explanations and practical examples.",
+        courses:'Introduction to Data Analysis with Python',
         avatar: require("./Images/avatar4.jpg")
     },
     {
         id: 5,
         name: "Eva Davis",
-        quote: "Cybersecurity Basics provided valuable insights into securing digital assets. A must for anyone interested in cybersecurity.",
-        job: "Security Analyst",
+        quote: "This course on Building RESTful APIs with Express is a game-changer, equipping me with the skills to effortlessly develop robust and scalable APIs.",
+        courses: 'Building RESTful APIs with Express',
         avatar: require("./Images/avatar5.jpg")
     }
 ]
