@@ -318,7 +318,6 @@ footer {
 color: #B2B3CF;
 text-align: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.8px;
@@ -329,6 +328,7 @@ margin-bottom: 1rem;
   display: flex;
   flex-direction: column; 
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .emailinput input {
@@ -357,7 +357,8 @@ margin-bottom: 1rem;
 }
 
 .content li a{
-  color: #B2B3CF
+  color: #B2B3CF;
+  font-size: small;
 }
 .content li:not(:last-child)::after {
   content: "|";
@@ -369,4 +370,10 @@ margin-bottom: 1rem;
   text-align: center;
   margin-top: 20px;
   color: #B2B3CF;
+  font-size: x-small;
+}
+@media screen and (max-width: 1024px) {
+  .emailinput input{
+   width: 250px;
+  }
 }

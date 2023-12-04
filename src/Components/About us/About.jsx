@@ -1,8 +1,12 @@
 import React from 'react'
+import "./About.css"
+import Footer from '../Home/Footer'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+    <Footer />
+    </>
   )
 }
 
