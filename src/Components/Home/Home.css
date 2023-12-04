@@ -289,3 +289,84 @@
   display: block;
   color: #4D4D4D;
 }
+
+/*===================footer===========*/
+/* Footer.css */
+
+footer {
+  margin-top: 7rem;
+  background-color: #0C2945;
+  color: #fff; /* Set text color to white */
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+.container {
+  align-items: center;
+  
+}
+.logofooter {
+  margin-bottom: 1rem;
+  justify-content: center; 
+}
+.logofooter img {
+  max-width: 15%; /* Ensure the logo does not exceed its container's width */
+  height: auto; /* Maintain the aspect ratio */
+  text-align: center;
+}
+.sub{
+color: #B2B3CF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.8px;
+margin-bottom: 1rem;
+}
+
+.emailinput {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.emailinput input {
+  border-radius: 60px 0px 0 60px; 
+  padding: 24px;
+  width: 450px;
+}
+
+.emailinput button {
+  color: #fff;
+  height: 64px;
+  width: 190px;
+  border-radius: 60px 60px 60px 60px; /* Round only the bottom corners */
+  border: 6px solid #ffffff;
+  background: linear-gradient(106deg, #388EFF 19.57%, #2782FA 78.85%);
+  cursor: pointer;
+  margin-left: -40px; 
+}
+
+.content ul {
+  content: "|";
+  list-style: none;
+  padding: 0.5rem;
+  display: flex; /* Make the list items display horizontally */
+  justify-content: center; /* Center the list items */
+}
+
+.content li a{
+  color: #B2B3CF
+}
+.content li:not(:last-child)::after {
+  content: "|";
+  margin: 0 8px;
+  color: #B2B3CF;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  color: #B2B3CF;
+}
