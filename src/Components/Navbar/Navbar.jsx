@@ -38,8 +38,6 @@ const Navbar = () => {
         </ul>
         <Link to ='/Login' className="login_button">Login/Sign Up</Link>
         
-        
-        
       </div>
     </nav>
   )

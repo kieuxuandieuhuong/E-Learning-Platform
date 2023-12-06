@@ -88,7 +88,7 @@
 .Startlearning_button{
   margin-top: 1rem;
 }
-
+/*-----------------------------------------------------Course-------------*/
 .courses h1 {
     color: #388EFF;
     padding: 3rem 8rem 1rem ;
@@ -116,6 +116,7 @@
     margin-right: 30px; /* Adjust the margin between cards */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+    
   }
   .courses_course:hover {
     transform: scale(1.1); /* Add a scaling effect on hover */
@@ -155,6 +156,9 @@
     font-weight: 300;
     color: #4D4D4D;
     line-height: 160%;
+    min-height: 80px; /* Độ cao tối thiểu */
+  max-height: 120px; /* Độ cao tối đa */
+  overflow: hidden;
   }
   .courses_course h4 {
     margin-top: 1rem;
