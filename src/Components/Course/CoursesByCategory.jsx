@@ -31,6 +31,7 @@ const CoursesByCategory = ({ category }) => {
 
   return (
     <section className='courses'>
+      
       <div className='container courses_container'>
         <h1>{category} Courses</h1>
         <div className='courses_wrapper'>
