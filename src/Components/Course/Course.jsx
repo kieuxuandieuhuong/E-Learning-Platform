@@ -15,13 +15,13 @@ const Course = () => {
         <SearchBar />
       </div>
       
-      {/* Main Content */}
+      <div className='content-category'>
       <CoursesByCategory category="UI/UX" />
       <CoursesByCategory category="Business Analysis" />
       <CoursesByCategory category="Data Analysis" />
       <CoursesByCategory category="Front-End" />
       <CoursesByCategory category="Back-End" />
-      
+      </div>
       {/* Other Components */}
       <Popular />
       <Footer />

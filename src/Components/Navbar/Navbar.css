@@ -34,7 +34,8 @@ nav{
     transition: var(--transition);
 }
 .nav_links a:hover{
-    color: #589CFE;
+    color: #589CFE; 
+    transition: var(--transition);
 }
 .active-nav{
     position: relative;
@@ -43,14 +44,14 @@ nav{
     content: '';
     display: block;
     height: 3px;
+    left: 0;
     background: #589CFE;
     position: absolute;
     margin-top: 0.2rem;
-    width: 100%;                      
+    width: 100%; 
+                     
 }
 
-
-  
   
   /* ... Your existing CSS ... */
 @media screen and (max-width: 1024px) {

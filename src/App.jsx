@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login'; 
 import "./App.css";
+import UIUX from './Components/Course/Category/UIUX';
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
         
         <Route index element={<Home />} />
         <Route path='Aboutus' element={<About />} />
-        <Route path='Courses' element={<Course />} />
-        <Route path='Contact' element={<Contact />} />
+        <Route path='courses' element={<Course />} />
+        <Route path='contact' element={<Contact />} />
         <Route path='Login' element={<Login />} />
+        <Route path='courses/UI-UX' element={<UIUX />} />
       </Routes>
     </BrowserRouter>
   );
