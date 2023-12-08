@@ -1,7 +1,6 @@
 import React from 'react';
 import CoursesByCategory from './CoursesByCategory';
 import "./Course.css";
-import Popular from '../Home/Popular';
 import Footer from '../Home/Footer';
 import SearchBar from './search';
 import Coursecate from './Coursecate';
@@ -23,7 +22,7 @@ const Course = () => {
       <CoursesByCategory category="Back-End" />
       </div>
       {/* Other Components */}
-      <Popular />
+      
       <Footer />
     </>
   );

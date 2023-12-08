@@ -73,7 +73,7 @@ color: #fff;
 
 .login_button:hover,
 .login_button:focus {
-    background: #0e3ecd;;
+    background: #1b60a0;
     box-shadow: 4px 4px 24px 0px rgba(3, 36, 202, 0.212);
 }
 

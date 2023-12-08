@@ -11,7 +11,7 @@ const UIUX = () => {
         <Coursecate />
         <SearchBar />
       </div>
-    <CoursesByCategory category="UI/UX" />
+    <CoursesByCategory category="UI/UX"  />
     <Footer />
     </>
   )

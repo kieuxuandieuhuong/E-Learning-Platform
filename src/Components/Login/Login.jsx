@@ -1,41 +1,26 @@
+import React from 'react';
+import { useForm } from 'react-hook-form';
 
-import React, { useState } from 'react';
-import './Login.css';
+function Login() {
+  const { register, handleSubmit, formState: { errors } } = useForm();
 
-const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleUsernameChange = (e) => {
-    setUsername(e.target.value);
-  };
-
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
-
-  const handleLogin = () => {
-    // Thực hiện xác thực tại đây (kiểm tra username và password)
-    // Nếu thành công, bạn có thể chuyển hướng hoặc thực hiện các hành động khác
-    console.log(`Đăng nhập với tên đăng nhập: ${username} và mật khẩu: ${password}`);
+  const onSubmit = (data) => {
+    console.log(data);
   };
 
   return (
-    <div>
-      <h2>Đăng nhập</h2>
-      <label>
-        Tên đăng nhập:
-        <input type="text" value={username} onChange={handleUsernameChange} />
-      </label>
-      <br />
-      <label>
-        Mật khẩu:
-        <input type="password" value={password} onChange={handlePasswordChange} />
-      </label>
-      <br />
-      <button onClick={handleLogin}>Đăng nhập</button>
-    </div>
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <label htmlFor="email">Email</label>
+      <input type="email" id="email" {...register("email", { required: true })} />
+      {errors.email && <span>This field is required</span>}
+
+      <label htmlFor="password">Password</label>
+      <input type="password" id="password" {...register("password", { required: true })} />
+      {errors.password && <span>This field is required</span>}
+
+      <button type="submit">Submit</button>
+    </form>
   );
-};
+}
 
 export default Login;

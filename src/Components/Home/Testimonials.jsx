@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Card from '../Card/Card'
 import { testimonials } from '../../data'
 import { ImQuotesLeft } from "react-icons/im";

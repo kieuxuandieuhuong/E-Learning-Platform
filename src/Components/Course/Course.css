@@ -1,22 +1,24 @@
 .small-navbar {
     display: flex;
-    align-items: stretch;
-    padding-top: 6.5rem; 
+    align-items: stretch;  
+    padding-top: 6rem; 
+    padding-left: 0.3rem;
+    padding-bottom: 1rem;
+    background: #deedff;
+    border-radius: 20px;
 }
-.content-category{
-    margin-top: -4rem;
-}
+
 .search-bar {
     width: 300px;
 }
 
 div.search-input-container {
     display: flex;
-    background: #F4F5F6;
+    background: #f9fcff;
     align-items: center;
     border-radius: 50px;
     padding-left: 20px;
-    padding-right: 0;
+    height: 47.2px;
     box-shadow: 2px 2px 4px 2px rgba(38, 45, 118, 0.08);
 }
 
@@ -30,7 +32,7 @@ div.search-input-container {
 }
 
 input[type='text'] {
-    background: #F4F5F6;
+    background: #f9fcff;
     color: #004bac;
     flex: 1;
     margin: 6px;
@@ -41,36 +43,57 @@ input[type='text'] {
 .category-buttons {
     display: flex;
     width: 900px;
-   
     flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
 }
  
   .category-button.active{
-    background: #388EFF; 
+    background: #1b60a0; 
     color: #fff; 
   }
 
   .category-button {
-    color: #004bac;
+    color: #1b60a0;
     padding: 10px;
     border-radius: 10px;
-    background: #F4F5F6;
+    background: #f9fcff;
     box-shadow: 2px 2px 4px 2px rgba(38, 45, 118, 0.08);
     margin-left: 9px;
     
   }
 
-  @media screen and (max-width: 1168px) {
+ .Courses .courses_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 2rem 0rem 2rem 1.1rem;
+  }
+
+  .Courses h1{
+    margin: 3rem 0rem 0rem 0rem;
+    width: fit-content;
+   border-bottom: 1px solid ;
+    text-align: left;
+    font-size: 30px;
+    color: #0268c7;
+  }
+  .Courses big{
+    padding-left: 130px ;
+    color: red;
+    font-weight: 550;
+    }
+
+  @media screen and (max-width: 1494px) {
     .small-navbar {
         flex-direction: column;
     }
 
     .category-buttons {
         width: 100%;
-        padding-right: 1rem;
+        padding-bottom: 1rem;
+        gap:3px;
     }
 
     .search-bar {
-        width: 100%;
+        width: 300px;
     }
   }
