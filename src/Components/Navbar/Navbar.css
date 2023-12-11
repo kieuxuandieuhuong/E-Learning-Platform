@@ -31,6 +31,7 @@ nav{
     
 }
 .nav_links a{
+    text-decoration: none;
     transition: var(--transition);
 }
 .nav_links a:hover{
@@ -80,11 +81,13 @@ nav{
     }
     .nav_links li{
         height: 4rem;
+        
     }
    
     .nav_links li a{
         height: 100%;
         display: flex;
+        text-decoration: none;
         align-items: center;
     }
     

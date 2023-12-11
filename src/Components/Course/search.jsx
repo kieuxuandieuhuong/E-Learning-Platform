@@ -1,43 +1,51 @@
-import React, { useState } from 'react';
-import { uiUxCourses, businessAnalysisCourses, dataAnalysisCourses, frontEndCourses, backendcourses } from '../../data';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
+import Tippy from "@tippyjs/react/headless";
+import Wrapp from './Wrapp';
 
-const SearchBar = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
-
-  const allCourses = [...uiUxCourses, ...businessAnalysisCourses, ...dataAnalysisCourses, ...frontEndCourses, ...backendcourses];
-
-  const handleSearch = () => {
-    const results = allCourses.filter(course => course.title.toLowerCase().includes(searchTerm.toLowerCase()));
-    setSearchResults(results);
-  };
-
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter') {
-      handleSearch();
-    }
-  };
+function SearchBar ()  {
+ const [searchResult, setSearchResult] =useState ([])
+useEffect (() => {
+  setTimeout(() => {
+    setSearchResult ([1,2,3]);
+  },1000);
+},[]);
 
   return (
     <div className='container search-container'>
+       <Tippy
+       interactive
+        visible ={searchResult.length > 0}
+          render={(attrs) => (
+            <Wrapp className='search-wrapper'>
+              <div className='search-result' tabIndex="-1" {...attrs} >
+              UI Design Fundamentals<br></br>
+              UI Design Fundamentals
+          </div>
+          </Wrapp>
+        )}
+          >
       <div className='search-bar'>
         <div className='search-input-container'>
-          <FaSearch className='search-icon' />
           <input
             type='text'
             placeholder='Search for courses...'
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            onKeyDown={handleKeyDown}
           />
-        </div>
+          
+          <button className='search-icon' >
+            <FaSearch />
+          </button>
+          
+          </div>
+          </div>
+          </Tippy>
+        
+        
       </div>
       
         
       
-    </div>
+    
   );
 };
 

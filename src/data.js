@@ -29,14 +29,14 @@ export const links = [
 
 export const courses = [
     {
-        id: 1,
-        rating: 4.5,
-        title: "Learn HTML and CSS for Beginners",
-        description: "Providing a hands-on introduction to creating and styling web pages for those with little to no coding experience.",
-        numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/program/111",
-        imgcourse: require("./Images/HTMLCSS.png")
+        id: 6,
+        rating: 4.7,
+        title: "UI Design Fundamentals",
+        description: "Master the principles of User Interface (UI) design and create visually appealing and user-friendly digital experiences.",
+        numberOfLessons: 8,
+        learningTime: "3 weeks",
+        imgcourse:"https://imgur.com/8UlQFif.jpg",
+        path: "/program/666"
     },
     {
         id: 2,
@@ -89,7 +89,7 @@ export const uiUxCourses = [
         description: "Master the principles of User Interface (UI) design and create visually appealing and user-friendly digital experiences.",
         numberOfLessons: 8,
         learningTime: "3 weeks",
-        imgcourse: require("./Images/UIfun.jpg"),
+        imgcourse:"https://imgur.com/8UlQFif.jpg",
         path: "/program/666"
 
     },
@@ -100,7 +100,7 @@ export const uiUxCourses = [
         description: "Dive into User Experience (UX) research methodologies and prototyping techniques to optimize your designs for user satisfaction.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/UXpro.jpg"),
+        imgcourse: "https://imgur.com/8R8by3A.jpg",
         path: "/program/777"
     },
     // Additional UI/UX courses
@@ -111,7 +111,7 @@ export const uiUxCourses = [
         description: "Explore advanced techniques in UI animation to enhance user engagement and create seamless interactive experiences.",
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
-        imgcourse: require("./Images/UX.jpg"),
+        imgcourse: "https://imgur.com/YEeSyPH.jpg",
         path: "/program/2222"
     },
     {
@@ -121,7 +121,7 @@ export const uiUxCourses = [
         description: "Learn the principles and best practices of designing user experiences for mobile devices, focusing on responsiveness and usability.",
         numberOfLessons: 11,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/mobileux.jpg"),
+        imgcourse: "https://imgur.com/8zF2bIw.jpg",
         path: "/program/2323"
     },
     {
@@ -131,7 +131,7 @@ export const uiUxCourses = [
         description: "Master the art of creating inclusive designs by incorporating accessibility principles into your UI/UX projects.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/uixu.jpg"),
+        imgcourse: "https://i.imgur.com/C6TxxaE.jpeg",
         path: "/program/2424"
     },
     {
@@ -141,7 +141,7 @@ export const uiUxCourses = [
         description: "Create a standout portfolio showcasing your UI/UX design skills, essential for attracting clients and employers.",
         numberOfLessons: 12,
         learningTime: "5 weeks",
-        imgcourse: require("./Images/pofolio.jpg"),
+        imgcourse: "https://imgur.com/Lfbkbkv.jpg",
         path: "/program/2525"
     }
 ];
@@ -155,7 +155,7 @@ export const businessAnalysisCourses = [
         description: "Learn the foundational concepts of Business Analysis, including requirements gathering, process analysis, and stakeholder communication.",
         numberOfLessons: 12,
         learningTime: "5 weeks",
-        imgcourse: require("./Images/BA.png"),
+        imgcourse: "https://imgur.com/RFAcfgY.png",
         path: "/program/888"
     },
     {
@@ -165,7 +165,7 @@ export const businessAnalysisCourses = [
         description: "Explore the role of Business Analysis in Agile environments, focusing on iterative and collaborative approaches to project management.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/Agile.jpg"),
+        imgcourse: "https://imgur.com/th2MX38.jpg",
         path: "/program/999"
     },
     // Additional Business Analysis courses
@@ -176,7 +176,7 @@ export const businessAnalysisCourses = [
         description: "Learn advanced techniques for optimizing business processes through analysis, modeling, and continuous improvement strategies.",
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
-        imgcourse: require("./Images/process.jpg"),
+        imgcourse: "https://imgur.com/1qLDzzk.jpg",
         path: "/program/2626"
     },
     {
@@ -186,7 +186,7 @@ export const businessAnalysisCourses = [
         description: "Master the art of effective stakeholder management, a crucial skill for successful business analysts in various industries.",
         numberOfLessons: 11,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/Stake.jpg"),
+        imgcourse: "https://imgur.com/10euybf.jpg",
         path: "/program/2727"
     },
     {
@@ -196,7 +196,7 @@ export const businessAnalysisCourses = [
         description: "Learn the essentials of documenting requirements effectively, ensuring clarity and precision in project communication.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/document.png"),
+        imgcourse: "https://imgur.com/oYdUiCE.png",
         path: "/program/2828"
     },
     {
@@ -206,7 +206,7 @@ export const businessAnalysisCourses = [
         description: "Deepen your understanding of use case modeling as a powerful tool for capturing and defining system requirements.",
         numberOfLessons: 12,
         learningTime: "5 weeks",
-        imgcourse: require("./Images/usecase.jpg"),
+        imgcourse: "https://imgur.com/EEvCvaI.jpg",
         path: "/program/2929"
     }
 ];
@@ -230,7 +230,7 @@ export const dataAnalysisCourses = [
         description: "Learn to create compelling data visualizations and reports to communicate complex information effectively ",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/Data.jpg"),
+        imgcourse: "https://imgur.com/1qLDzzk.jpg",
         path: "/program/1111"
     },
     {
@@ -240,7 +240,7 @@ export const dataAnalysisCourses = [
         description: "Explore the principles of predictive analytics, learning how to build models that forecast future trends and outcomes based on historical data.",
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
-        imgcourse: require("./Images/predic.jpg"),
+        imgcourse: "https://imgur.com/CpqaPQx.jpg",
         path: "/program/3030"
     },
     {
@@ -250,7 +250,7 @@ export const dataAnalysisCourses = [
         description: "Master the art of cleaning and preprocessing data, a critical step in ensuring the accuracy and reliability of your analysis.",
         numberOfLessons: 11,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/cleaning.jpg"),
+        imgcourse: "https://imgur.com/8lv82u3.jpg",
         path: "/program/3131"
     },
     {
@@ -260,7 +260,7 @@ export const dataAnalysisCourses = [
         description: "Deepen your understanding of time series analysis, a valuable skill for extracting insights from data that evolves over time.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        imgcourse: require("./Images/Data2.png"),
+        imgcourse: "https://imgur.com/14D1Zwm.png",
         path: "/program/3232"
     },
     {
@@ -270,7 +270,7 @@ export const dataAnalysisCourses = [
         description: "Enhance your SQL skills for data analysis, covering advanced techniques for querying and manipulating large datasets.",
         numberOfLessons: 12,
         learningTime: "5 weeks",
-        imgcourse: require("./Images/advance.png"),
+        imgcourse:"https://imgur.com/M3xL0c0.png",
         path: "/program/3333"
     }
 ];
@@ -285,7 +285,7 @@ export const frontEndCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         path: "/program/111",
-        imgcourse: require("./Images/HTMLCSS.png")
+        imgcourse: "https://imgur.com/x3UYOPD.png"
     },
     {
         id: 2,
@@ -295,7 +295,7 @@ export const frontEndCourses = [
         numberOfLessons: 8,
         learningTime: "3 weeks",
         path: "/program/222",
-        imgcourse: require("./Images/java.jpg")
+        imgcourse: "https://imgur.com/TcB60Uk.jpg"
     },
     {
         id: 3,
@@ -305,9 +305,9 @@ export const frontEndCourses = [
         learningTime: "5 weeks",
         numberOfLessons: 15,
         path: "/program/333",
-        imgcourse: require("./Images/React-js-1.png")
+        imgcourse:"https://imgur.com/3YpnxHS.png"
     },
-    // Additional front-end courses
+   
     {
         id: 34,
         rating: 4.7,
@@ -316,7 +316,7 @@ export const frontEndCourses = [
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
         path: "/program/3434",
-        imgcourse: require("./Images/re.jpg")
+        imgcourse: "https://imgur.com/lGUrYAA.jpg"
     },
     {
         id: 35,
@@ -326,7 +326,7 @@ export const frontEndCourses = [
         numberOfLessons: 11,
         learningTime: "4 weeks",
         path: "/program/3535",
-        imgcourse: require("./Images/vue.jpg")
+        imgcourse: "https://imgur.com/rDEJIjr.jpg"
     },
     {
         id: 36,
@@ -336,7 +336,7 @@ export const frontEndCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         path: "/program/3636",
-        imgcourse: require("./Images/web.jpg")
+        imgcourse: "https://imgur.com/alT5vkG.jpg"
     },
     {
         id: 4,
@@ -346,7 +346,7 @@ export const frontEndCourses = [
         numberOfLessons: 15,
         learningTime: "6 weeks",
         path: "/program/444",
-        imgcourse: require("./Images/mobileapp.jpg")
+        imgcourse: "https://imgur.com/esz86bS.jpg"
     },
     {
         id: 38,
@@ -356,7 +356,7 @@ export const frontEndCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         path: "/program/3838",
-        imgcourse: require("./Images/pwa.jpg")
+        imgcourse: "https://imgur.com/Wtfjdiq.jpg"
     }
 ];
 
@@ -370,7 +370,7 @@ export const backendcourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         path: "/program/555",
-        imgcourse: require("./Images/R.png")
+        imgcourse:"https://imgur.com/AWfyCQX.png"
     },
     // Additional back-end courses
    
@@ -382,7 +382,7 @@ export const backendcourses = [
         numberOfLessons: 11,
         learningTime: "4 weeks",
         path: "/program/3939",
-        imgcourse: require("./Images/api.jpg")
+        imgcourse: "https://imgur.com/9urXvVd.jpg"
     },
     {
         id: 40,
@@ -392,7 +392,7 @@ export const backendcourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         path: "/program/4040",
-        imgcourse: require("./Images/spring.jpg")
+        imgcourse: "https://imgur.com/N7iswct.jpg"
     },
     {
         id: 41,
@@ -402,7 +402,7 @@ export const backendcourses = [
         numberOfLessons: 12,
         learningTime: "5 weeks",
         path: "/program/4141",
-        imgcourse: require("./Images/Grap.jpg")
+        imgcourse: "https://imgur.com/g9pEUOk.jpg"
     }
 ];
 

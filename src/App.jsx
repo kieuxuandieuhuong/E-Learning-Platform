@@ -5,16 +5,16 @@ import About from "./Components/About us/About";
 import Course from "./Components/Course/Course";
 import Navbar from './Components/Navbar/Navbar';
 import Contact from './Components/Contact/Contact';
-import Login from './Components/Login/Login'; 
+import Login from './Components/Login/Login';
 import "./App.css";
 import UIUX from './Components/Course/Category/UIUX';
+
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        
         <Route index element={<Home />} />
         <Route path='Aboutus' element={<About />} />
         <Route path='courses' element={<Course />} />
