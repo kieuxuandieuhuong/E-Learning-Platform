@@ -39,34 +39,34 @@ export const courses = [
         path: "/program/666"
     },
     {
-        id: 2,
-        rating: 5.0,
-        title: "Javasript from Zero",
-        description: "A beginner-friendly course that takes you from ground zero to confidently mastering the essentials of JavaScript programming.",
-        numberOfLessons: 8,
-        learningTime: "3 weeks",
-        path: "/program/222",
-        imgcourse: require("./Images/java.jpg")
-    },
-    {
-        id: 3,
+        id: 8,
         rating: 4.9,
-        title: "ReactJS for Beginner",
-        description: " Learn the fundamentals of building interactive user interfaces through hands-on exercises.",
+        title: "Introduction to Business Analysis",
+        description: "Learn the foundational concepts of Business Analysis, including requirements gathering, process analysis, and stakeholder communication.",
+        numberOfLessons: 12,
         learningTime: "5 weeks",
-        numberOfLessons: 15,
-        path: "/program/333",
-        imgcourse: require("./Images/React-js-1.png")
+        imgcourse: "https://imgur.com/RFAcfgY.png",
+        path: "/program/888"
     },
     {
-        id: 4,
+        id: 1,
+        rating: 4.5,
+        title: "Learn HTML and CSS for Beginners",
+        description: "Providing a hands-on introduction to creating and styling web pages for those with little to no coding experience.",
+        numberOfLessons: 10,
+        learningTime: "4 weeks",
+        path: "/program/111",
+        imgcourse: "https://imgur.com/x3UYOPD.png"
+    },
+    {
+        id: 22,
         rating: 4.8,
-        title: "Mobile App Development",
-        description: "Master the art of Mobile App Development with our concise course for both iOS and Android platforms.",
-        numberOfLessons: 15,
-        learningTime: "6 weeks",
-        path: "/program/444",
-        imgcourse: require("./Images/mobileapp.jpg")
+        title: "Advanced UI Animation",
+        description: "Explore advanced techniques in UI animation to enhance user engagement and create seamless interactive experiences.",
+        numberOfLessons: 9,
+        learningTime: "3.5 weeks",
+        imgcourse: "https://imgur.com/YEeSyPH.jpg",
+        path: "/program/2222"
     },
     {
         id: 5,
@@ -76,7 +76,7 @@ export const courses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         path: "/program/555",
-        imgcourse: require("./Images/R.png")
+        imgcourse:"https://imgur.com/AWfyCQX.png"
     }
 ]
 
