@@ -1,32 +1,34 @@
 import React from "react";
-import CustomInput from "../components/CustomInput";
+import Footer from '../Home/Footer';
+import { Link } from 'react-router-dom';
 
 const Forgotpassword = () => {
   return (
-    <div className="py-5" style={{ background: "#ffd333", minHeight: "100vh" }}>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="my-5 w-25 bg-white rounded-3 mx-auto p-4">
-        <h3 className="text-center title">Forgot Password</h3>
-        <p className="text-center">
-          Please Enter your register email to get reset password mail.
-        </p>
-        <form action="">
-          <CustomInput type="password" label="Email Address" id="email" />
-
-          <button
-            className="border-0 px-3 py-2 text-white fw-bold w-100"
-            style={{ background: "#ffd333" }}
-            type="submit"
-          >
-            Send Link
-          </button>
-        </form>
+   <>
+   <div className="container login-wrapper">
+    <div className="row">
+      <div className="col">
+        <div className="login-card">
+          <h3 className='login-title'>Reset Your Password</h3>
+          <p>We will sent you an email to reset your password</p>
+          <form action="">
+            <div>
+              <input type="email" name="email" placeholder='Email' className='form-control' />
+            </div>
+            <div>
+              <Link to="/forgot-password">Forgot Password?</Link>
+            </div>
+            <div className="justify-button">
+              <button className='button' type="submit">Submit</button>
+              <Link className="button-cancel"to="/Login">Cancel</Link>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
+</div>
+<Footer />
+   </>
   );
 };
 

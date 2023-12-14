@@ -8,6 +8,11 @@ import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login'; 
 import "./App.css";
 import UIUX from './Components/Course/Category/UIUX';
+import Forgotpassword from './Components/Login/Forgotpassword';
+import Signup from './Components/Login/Signup';
+import Resetpassword from './Components/Login/Resetpassword';
+
+
 
 const App = () => {
   return (
@@ -20,6 +25,9 @@ const App = () => {
         <Route path='courses' element={<Course />} />
         <Route path='contact' element={<Contact />} />
         <Route path='Login' element={<Login />} />
+        <Route path='Signup' element={<Signup />} />
+        <Route path='forgot-password' element={<Forgotpassword/>} />
+        <Route path='reset-password' element={<Resetpassword />} />
         <Route path='courses/UI-UX' element={<UIUX />} />
       </Routes>
     </BrowserRouter>
