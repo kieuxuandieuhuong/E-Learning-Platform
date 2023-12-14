@@ -141,12 +141,10 @@
   vertical-align: middle; 
   padding: 0px 3px 1.5px 0px;
 }
-.rating {
+
+.star-icon svg {
   margin-top: 1rem;
-  display: flex;
   justify-content: left;
-}  
-.star-icon {
   color: #ff9800;
 }
 .courses_course p{

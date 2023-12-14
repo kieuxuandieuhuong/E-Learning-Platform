@@ -1,8 +1,7 @@
 .about-container {
     margin-top: 8rem;
-    height: 200px;
     border-radius: 20px;
-    background: #F4F5F6;
+    height: 100px;
   }
   
   .abouth1{
@@ -12,20 +11,63 @@
   .abouth4{
     color: #034aa7;
     text-align: center;
+    margin-bottom: 1rem;
+  }
+  .about{
+    display: flex;
+  }
+  .column {
+    flex: 2; /* 2/3 of the width for the first column */
+    padding: 1rem; /* Add padding for better spacing */
+    display: flex;
+    flex-direction: column; /* Make the child elements stack vertically */
   }
   
-  .column {
-    flex: 1;
+  .aboutuscontent {
+    margin-bottom: 1rem; /* Add margin for spacing between paragraphs */
   }
-  .aboutcontent{
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr)); 
-    column-gap: 2rem; 
-    row-gap: 2rem; 
-  }
- 
+  
   .imagepos {
-    width: 300px;
+    flex: 1; 
+    width: 100%; /* Make the image fill the column */
     height: auto;
   }
+
+  .aboutcomponent {
+    border-radius: 20px;
+    display: grid; /* Change display to grid */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+  }
+ .about p{
+    color: rgb(58, 57, 57);
+    padding-left: 10px;
+    margin-bottom: 1rem;
+ }
+  .abouticon svg {
+    padding-top: 1rem;
+    font-weight: 700;
+    color: #388EFF;
+    width: auto;
+    height: 60px;
+  }
+  .idabout {
+    flex-direction: column;
+    margin-right: 3rem;
+    background: #f4f5f6;
+    border-radius: 20px;
+    display: flex;
+  }
+  .titleitem {
+    color: #034aa7;
+    font-size: 20px;
+  }
+  
+  .numberitem {
+    font-weight: 500;
+    color: gray;
+  }
+  

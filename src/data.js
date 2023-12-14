@@ -27,8 +27,8 @@ export const links = [
 ]
 
 
-export const courses = [
-    {
+export const courses = {
+popularcourse: [ {
         id: 6,
         rating: 4.7,
         title: "UI Design Fundamentals",
@@ -36,7 +36,7 @@ export const courses = [
         numberOfLessons: 8,
         learningTime: "3 weeks",
         imgcourse:"https://imgur.com/8UlQFif.jpg",
-        path: "/program/666"
+        path: "/program/6"
     },
     {
         id: 8,
@@ -46,7 +46,7 @@ export const courses = [
         numberOfLessons: 12,
         learningTime: "5 weeks",
         imgcourse: "https://imgur.com/RFAcfgY.png",
-        path: "/program/888"
+        path: "/courses/8"
     },
     {
         id: 1,
@@ -55,7 +55,7 @@ export const courses = [
         description: "Providing a hands-on introduction to creating and styling web pages for those with little to no coding experience.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/111",
+        path: "/courses/1",
         imgcourse: "https://imgur.com/x3UYOPD.png"
     },
     {
@@ -66,7 +66,7 @@ export const courses = [
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
         imgcourse: "https://imgur.com/YEeSyPH.jpg",
-        path: "/program/2222"
+        path: "/courses/22"
     },
     {
         id: 5,
@@ -75,13 +75,12 @@ export const courses = [
         description: "Discover the core concepts of Node.js and Express.js in our brief course, exploring essential JavaScript technologies.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/555",
+        path: "/courses/5",
         imgcourse:"https://imgur.com/AWfyCQX.png"
     }
-]
+],
 
-export const uiUxCourses = [
-    // Existing courses
+ uiUxCourses : [
     {
         id: 6,
         rating: 4.7,
@@ -90,7 +89,7 @@ export const uiUxCourses = [
         numberOfLessons: 8,
         learningTime: "3 weeks",
         imgcourse:"https://imgur.com/8UlQFif.jpg",
-        path: "/program/666"
+        path: "https://www.youtube.com/watch?v=DwmoLIAwf7Q&list=PLd-qLJXOeZDOgJuYpYrRxaYtyai2GTyQl"
 
     },
     {
@@ -101,9 +100,9 @@ export const uiUxCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/8R8by3A.jpg",
-        path: "/program/777"
+        path: "https://www.youtube.com/watch?v=PZ2hchA4Jvg"
     },
-    // Additional UI/UX courses
+   
     {
         id: 22,
         rating: 4.8,
@@ -112,7 +111,7 @@ export const uiUxCourses = [
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
         imgcourse: "https://imgur.com/YEeSyPH.jpg",
-        path: "/program/2222"
+        path: "https://www.youtube.com/watch?v=sBNm0BVRi1A&list=PLtU8M9giqjPuObPhJrS6z54hMEZRZfws3"
     },
     {
         id: 23,
@@ -122,7 +121,7 @@ export const uiUxCourses = [
         numberOfLessons: 11,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/8zF2bIw.jpg",
-        path: "/program/2323"
+        path: "https://www.youtube.com/watch?v=82_e4TOu13U&list=PL5eJgcQ87sgfTfa339_OSuAcdSyPSDSjJ"
     },
     {
         id: 24,
@@ -132,7 +131,7 @@ export const uiUxCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         imgcourse: "https://i.imgur.com/C6TxxaE.jpeg",
-        path: "/program/2424"
+        path: "/courses/24"
     },
     {
         id: 25,
@@ -142,11 +141,11 @@ export const uiUxCourses = [
         numberOfLessons: 12,
         learningTime: "5 weeks",
         imgcourse: "https://imgur.com/Lfbkbkv.jpg",
-        path: "/program/2525"
+        path: "/courses/25"
     }
-];
+],
 
-export const businessAnalysisCourses = [
+businessAnalysisCourses : [
     // Existing courses
     {
         id: 8,
@@ -156,7 +155,7 @@ export const businessAnalysisCourses = [
         numberOfLessons: 12,
         learningTime: "5 weeks",
         imgcourse: "https://imgur.com/RFAcfgY.png",
-        path: "/program/888"
+        path: "/courses/8"
     },
     {
         id: 9,
@@ -166,7 +165,7 @@ export const businessAnalysisCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/th2MX38.jpg",
-        path: "/program/999"
+        path: "/courses/9"
     },
     // Additional Business Analysis courses
     {
@@ -177,7 +176,7 @@ export const businessAnalysisCourses = [
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
         imgcourse: "https://imgur.com/1qLDzzk.jpg",
-        path: "/program/2626"
+        path: "/courses/26"
     },
     {
         id: 27,
@@ -187,7 +186,7 @@ export const businessAnalysisCourses = [
         numberOfLessons: 11,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/10euybf.jpg",
-        path: "/program/2727"
+        path: "/courses/27"
     },
     {
         id: 28,
@@ -197,7 +196,7 @@ export const businessAnalysisCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/oYdUiCE.png",
-        path: "/program/2828"
+        path: "/courses/28"
     },
     {
         id: 29,
@@ -207,11 +206,11 @@ export const businessAnalysisCourses = [
         numberOfLessons: 12,
         learningTime: "5 weeks",
         imgcourse: "https://imgur.com/EEvCvaI.jpg",
-        path: "/program/2929"
+        path: "/courses/29"
     }
-];
+],
 
-export const dataAnalysisCourses = [
+dataAnalysisCourses :[
     // Existing courses
     {
         id: 10,
@@ -221,7 +220,7 @@ export const dataAnalysisCourses = [
         numberOfLessons: 8,
         learningTime: "3 weeks",
         imgcourse: require("./Images/demo.png"),
-        path: "/program/1010"
+        path: "/courses/10"
     },
     {
         id: 11,
@@ -231,7 +230,7 @@ export const dataAnalysisCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/1qLDzzk.jpg",
-        path: "/program/1111"
+        path: "/courses/11"
     },
     {
         id: 30,
@@ -241,7 +240,7 @@ export const dataAnalysisCourses = [
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
         imgcourse: "https://imgur.com/CpqaPQx.jpg",
-        path: "/program/3030"
+        path: "/courses/30"
     },
     {
         id: 31,
@@ -251,7 +250,7 @@ export const dataAnalysisCourses = [
         numberOfLessons: 11,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/8lv82u3.jpg",
-        path: "/program/3131"
+        path: "/courses/31"
     },
     {
         id: 32,
@@ -261,7 +260,7 @@ export const dataAnalysisCourses = [
         numberOfLessons: 10,
         learningTime: "4 weeks",
         imgcourse: "https://imgur.com/14D1Zwm.png",
-        path: "/program/3232"
+        path: "/courses/32"
     },
     {
         id: 33,
@@ -271,11 +270,11 @@ export const dataAnalysisCourses = [
         numberOfLessons: 12,
         learningTime: "5 weeks",
         imgcourse:"https://imgur.com/M3xL0c0.png",
-        path: "/program/3333"
+        path: "/courses/33"
     }
-];
+],
 
-export const frontEndCourses = [
+ frontEndCourses :[
     // Existing courses
     {
         id: 1,
@@ -284,7 +283,7 @@ export const frontEndCourses = [
         description: "Providing a hands-on introduction to creating and styling web pages for those with little to no coding experience.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/111",
+        path: "/courses/1",
         imgcourse: "https://imgur.com/x3UYOPD.png"
     },
     {
@@ -294,7 +293,7 @@ export const frontEndCourses = [
         description: "A beginner-friendly course that takes you from ground zero to confidently mastering the essentials of JavaScript programming.",
         numberOfLessons: 8,
         learningTime: "3 weeks",
-        path: "/program/222",
+        path: "/courses/2",
         imgcourse: "https://imgur.com/TcB60Uk.jpg"
     },
     {
@@ -304,7 +303,7 @@ export const frontEndCourses = [
         description: " Learn the fundamentals of building interactive user interfaces through hands-on exercises.",
         learningTime: "5 weeks",
         numberOfLessons: 15,
-        path: "/program/333",
+        path: "/courses/3",
         imgcourse:"https://imgur.com/3YpnxHS.png"
     },
    
@@ -315,7 +314,7 @@ export const frontEndCourses = [
         description: "Explore advanced techniques in responsive web design using CSS Grid, creating flexible and dynamic layouts.",
         numberOfLessons: 9,
         learningTime: "3.5 weeks",
-        path: "/program/3434",
+        path: "/courses/34",
         imgcourse: "https://imgur.com/lGUrYAA.jpg"
     },
     {
@@ -325,7 +324,7 @@ export const frontEndCourses = [
         description: "Dive into the Vue.js framework and learn how to build powerful and dynamic user interfaces with this popular JavaScript framework.",
         numberOfLessons: 11,
         learningTime: "4 weeks",
-        path: "/program/3535",
+        path: "/courses/35",
         imgcourse: "https://imgur.com/rDEJIjr.jpg"
     },
     {
@@ -335,7 +334,7 @@ export const frontEndCourses = [
         description: "Master the art of creating captivating animations on the web using a combination of CSS and JavaScript.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/3636",
+        path: "/courses/36",
         imgcourse: "https://imgur.com/alT5vkG.jpg"
     },
     {
@@ -345,7 +344,7 @@ export const frontEndCourses = [
         description: "Master the art of Mobile App Development with our concise course for both iOS and Android platforms.",
         numberOfLessons: 15,
         learningTime: "6 weeks",
-        path: "/program/444",
+        path: "/courses/4",
         imgcourse: "https://imgur.com/esz86bS.jpg"
     },
     {
@@ -355,12 +354,12 @@ export const frontEndCourses = [
         description: "Explore the principles and techniques behind building Progressive Web Apps, delivering a seamless and app-like experience on the web.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/3838",
+        path: "/courses/38",
         imgcourse: "https://imgur.com/Wtfjdiq.jpg"
     }
-];
+],
 
-export const backendcourses = [
+backendcourses : [
     // Existing courses
     {
         id: 5,
@@ -369,7 +368,7 @@ export const backendcourses = [
         description: "Discover the core concepts of Node.js and Express.js in our brief course, exploring essential JavaScript technologies.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/555",
+        path: "/courses/5",
         imgcourse:"https://imgur.com/AWfyCQX.png"
     },
     // Additional back-end courses
@@ -381,7 +380,7 @@ export const backendcourses = [
         description: "Master the art of building RESTful APIs using Express.js, enabling seamless communication between front-end and back-end systems.",
         numberOfLessons: 11,
         learningTime: "4 weeks",
-        path: "/program/3939",
+        path: "/courses/39",
         imgcourse: "https://imgur.com/9urXvVd.jpg"
     },
     {
@@ -391,7 +390,7 @@ export const backendcourses = [
         description: "Explore the fundamentals of building web applications with Java Spring Boot, a powerful and widely-used Java framework.",
         numberOfLessons: 10,
         learningTime: "4 weeks",
-        path: "/program/4040",
+        path: "/courses/40",
         imgcourse: "https://imgur.com/N7iswct.jpg"
     },
     {
@@ -401,10 +400,14 @@ export const backendcourses = [
         description: "Dive into GraphQL, a query language for APIs, and learn how to build flexible and efficient APIs for modern web applications.",
         numberOfLessons: 12,
         learningTime: "5 weeks",
-        path: "/program/4141",
+        path: "/courses/41",
         imgcourse: "https://imgur.com/g9pEUOk.jpg"
     }
-];
+],
+
+}
+
+
 
 
 export const testimonials = [
