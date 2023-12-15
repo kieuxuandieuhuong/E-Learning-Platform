@@ -39,8 +39,7 @@ useEffect (() => {
           </div>
           </div>
           </Tippy>
-        
-        
+      
       </div>
       
         

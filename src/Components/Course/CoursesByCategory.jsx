@@ -66,7 +66,7 @@ const CoursesByCategory = ({ category }) => {
                   <IoTimeOutline /> {learningTime}
                 </span>
                 <div className='empty'>border</div>
-                <Link to={path} className='Learning_button'>
+                <Link to= {`/courses/${id} `}  className='Learning_button'>
                   Enroll Now
                 </Link>
                 <big>Free</big>

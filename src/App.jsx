@@ -24,7 +24,7 @@ const App = () => {
         <Route path='Login' element={<Login />} />
         <Route path='courses/UI-UX' element={<UIUX />} />
         <Route path='courses/:id' element={<Single />} />
-        <Route path='watch/:id' element={<Watchpage />} />
+        <Route path='lesson/:id' element={<Watchpage />} />
       </Routes>
     </BrowserRouter>
   );

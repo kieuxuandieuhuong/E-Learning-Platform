@@ -34,9 +34,8 @@ popularcourse: [ {
         title: "UI Design Fundamentals",
         description: "Master the principles of User Interface (UI) design and create visually appealing and user-friendly digital experiences.",
         numberOfLessons: 8,
-        learningTime: "3 weeks",
+        learningTime: "3 Weeks",
         imgcourse:"https://imgur.com/8UlQFif.jpg",
-        path: "/program/6"
     },
     {
         id: 8,
@@ -44,9 +43,8 @@ popularcourse: [ {
         title: "Introduction to Business Analysis",
         description: "Learn the foundational concepts of Business Analysis, including requirements gathering, process analysis, and stakeholder communication.",
         numberOfLessons: 12,
-        learningTime: "5 weeks",
+        learningTime: "5 Weeks",
         imgcourse: "https://imgur.com/RFAcfgY.png",
-        path: "/courses/8"
     },
     {
         id: 1,
@@ -54,8 +52,7 @@ popularcourse: [ {
         title: "Learn HTML and CSS for Beginners",
         description: "Providing a hands-on introduction to creating and styling web pages for those with little to no coding experience.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/1",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/x3UYOPD.png"
     },
     {
@@ -64,9 +61,8 @@ popularcourse: [ {
         title: "Advanced UI Animation",
         description: "Explore advanced techniques in UI animation to enhance user engagement and create seamless interactive experiences.",
         numberOfLessons: 9,
-        learningTime: "3.5 weeks",
+        learningTime: "3.5 Weeks",
         imgcourse: "https://imgur.com/YEeSyPH.jpg",
-        path: "/courses/22"
     },
     {
         id: 5,
@@ -74,8 +70,7 @@ popularcourse: [ {
         title: "Node & Express JS",
         description: "Discover the core concepts of Node.js and Express.js in our brief course, exploring essential JavaScript technologies.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/5",
+        learningTime: "4 Weeks",
         imgcourse:"https://imgur.com/AWfyCQX.png"
     }
 ],
@@ -86,10 +81,10 @@ popularcourse: [ {
         rating: 4.7,
         title: "UI Design Fundamentals",
         description: "Master the principles of User Interface (UI) design and create visually appealing and user-friendly digital experiences.",
-        numberOfLessons: 8,
-        learningTime: "3 weeks",
+        numberOfLessons: 3,
+        learningTime: "3 Weeks",
         imgcourse:"https://imgur.com/8UlQFif.jpg",
-        path: "https://www.youtube.com/watch?v=DwmoLIAwf7Q&list=PLd-qLJXOeZDOgJuYpYrRxaYtyai2GTyQl"
+        
 
     },
     {
@@ -98,9 +93,8 @@ popularcourse: [ {
         title: "UX Research and Prototyping",
         description: "Dive into User Experience (UX) research methodologies and prototyping techniques to optimize your designs for user satisfaction.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/8R8by3A.jpg",
-        path: "https://www.youtube.com/watch?v=PZ2hchA4Jvg"
     },
    
     {
@@ -109,9 +103,9 @@ popularcourse: [ {
         title: "Advanced UI Animation",
         description: "Explore advanced techniques in UI animation to enhance user engagement and create seamless interactive experiences.",
         numberOfLessons: 9,
-        learningTime: "3.5 weeks",
+        learningTime: "3.5 Weeks",
         imgcourse: "https://imgur.com/YEeSyPH.jpg",
-        path: "https://www.youtube.com/watch?v=sBNm0BVRi1A&list=PLtU8M9giqjPuObPhJrS6z54hMEZRZfws3"
+        
     },
     {
         id: 23,
@@ -119,9 +113,9 @@ popularcourse: [ {
         title: "Mobile UX Design",
         description: "Learn the principles and best practices of designing user experiences for mobile devices, focusing on responsiveness and usability.",
         numberOfLessons: 11,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/8zF2bIw.jpg",
-        path: "https://www.youtube.com/watch?v=82_e4TOu13U&list=PL5eJgcQ87sgfTfa339_OSuAcdSyPSDSjJ"
+        
     },
     {
         id: 24,
@@ -129,9 +123,8 @@ popularcourse: [ {
         title: "Accessibility in UI/UX",
         description: "Master the art of creating inclusive designs by incorporating accessibility principles into your UI/UX projects.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://i.imgur.com/C6TxxaE.jpeg",
-        path: "/courses/24"
     },
     {
         id: 25,
@@ -139,9 +132,8 @@ popularcourse: [ {
         title: "UI/UX Portfolio Building",
         description: "Create a standout portfolio showcasing your UI/UX design skills, essential for attracting clients and employers.",
         numberOfLessons: 12,
-        learningTime: "5 weeks",
+        learningTime: "5 Weeks",
         imgcourse: "https://imgur.com/Lfbkbkv.jpg",
-        path: "/courses/25"
     }
 ],
 
@@ -153,9 +145,8 @@ businessAnalysisCourses : [
         title: "Introduction to Business Analysis",
         description: "Learn the foundational concepts of Business Analysis, including requirements gathering, process analysis, and stakeholder communication.",
         numberOfLessons: 12,
-        learningTime: "5 weeks",
+        learningTime: "5 Weeks",
         imgcourse: "https://imgur.com/RFAcfgY.png",
-        path: "/courses/8"
     },
     {
         id: 9,
@@ -163,9 +154,8 @@ businessAnalysisCourses : [
         title: "Agile Business Analysis",
         description: "Explore the role of Business Analysis in Agile environments, focusing on iterative and collaborative approaches to project management.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/th2MX38.jpg",
-        path: "/courses/9"
     },
     // Additional Business Analysis courses
     {
@@ -174,9 +164,8 @@ businessAnalysisCourses : [
         title: "Business Process Optimization",
         description: "Learn advanced techniques for optimizing business processes through analysis, modeling, and continuous improvement strategies.",
         numberOfLessons: 9,
-        learningTime: "3.5 weeks",
+        learningTime: "3.5 Weeks",
         imgcourse: "https://imgur.com/1qLDzzk.jpg",
-        path: "/courses/26"
     },
     {
         id: 27,
@@ -184,9 +173,8 @@ businessAnalysisCourses : [
         title: "Stakeholder Management",
         description: "Master the art of effective stakeholder management, a crucial skill for successful business analysts in various industries.",
         numberOfLessons: 11,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/10euybf.jpg",
-        path: "/courses/27"
     },
     {
         id: 28,
@@ -194,9 +182,8 @@ businessAnalysisCourses : [
         title: "Requirements Documentation",
         description: "Learn the essentials of documenting requirements effectively, ensuring clarity and precision in project communication.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/oYdUiCE.png",
-        path: "/courses/28"
     },
     {
         id: 29,
@@ -204,9 +191,8 @@ businessAnalysisCourses : [
         title: "Use Case Modeling",
         description: "Deepen your understanding of use case modeling as a powerful tool for capturing and defining system requirements.",
         numberOfLessons: 12,
-        learningTime: "5 weeks",
+        learningTime: "5 Weeks",
         imgcourse: "https://imgur.com/EEvCvaI.jpg",
-        path: "/courses/29"
     }
 ],
 
@@ -218,9 +204,8 @@ dataAnalysisCourses :[
         title: "Data Analysis with Python",
         description: "Get started with data analysis using Python, covering essential libraries and techniques for extracting meaningful insights from datasets.",
         numberOfLessons: 8,
-        learningTime: "3 weeks",
+        learningTime: "3 Weeks",
         imgcourse: require("./Images/demo.png"),
-        path: "/courses/10"
     },
     {
         id: 11,
@@ -228,9 +213,8 @@ dataAnalysisCourses :[
         title: "Data Visualization and Reporting",
         description: "Learn to create compelling data visualizations and reports to communicate complex information effectively ",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/1qLDzzk.jpg",
-        path: "/courses/11"
     },
     {
         id: 30,
@@ -238,9 +222,8 @@ dataAnalysisCourses :[
         title: "Predictive Analytics",
         description: "Explore the principles of predictive analytics, learning how to build models that forecast future trends and outcomes based on historical data.",
         numberOfLessons: 9,
-        learningTime: "3.5 weeks",
+        learningTime: "3.5 Weeks",
         imgcourse: "https://imgur.com/CpqaPQx.jpg",
-        path: "/courses/30"
     },
     {
         id: 31,
@@ -248,9 +231,8 @@ dataAnalysisCourses :[
         title: "Data Cleaning and Preprocessing",
         description: "Master the art of cleaning and preprocessing data, a critical step in ensuring the accuracy and reliability of your analysis.",
         numberOfLessons: 11,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/8lv82u3.jpg",
-        path: "/courses/31"
     },
     {
         id: 32,
@@ -258,9 +240,9 @@ dataAnalysisCourses :[
         title: "Time Series Analysis",
         description: "Deepen your understanding of time series analysis, a valuable skill for extracting insights from data that evolves over time.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/14D1Zwm.png",
-        path: "/courses/32"
+  
     },
     {
         id: 33,
@@ -268,9 +250,9 @@ dataAnalysisCourses :[
         title: "Advanced SQL for Data Analysis",
         description: "Enhance your SQL skills for data analysis, covering advanced techniques for querying and manipulating large datasets.",
         numberOfLessons: 12,
-        learningTime: "5 weeks",
+        learningTime: "5 Weeks",
         imgcourse:"https://imgur.com/M3xL0c0.png",
-        path: "/courses/33"
+       
     }
 ],
 
@@ -282,8 +264,7 @@ dataAnalysisCourses :[
         title: "Learn HTML and CSS for Beginners",
         description: "Providing a hands-on introduction to creating and styling web pages for those with little to no coding experience.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/1",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/x3UYOPD.png"
     },
     {
@@ -292,8 +273,7 @@ dataAnalysisCourses :[
         title: "Javasript from Zero",
         description: "A beginner-friendly course that takes you from ground zero to confidently mastering the essentials of JavaScript programming.",
         numberOfLessons: 8,
-        learningTime: "3 weeks",
-        path: "/courses/2",
+        learningTime: "3 Weeks",
         imgcourse: "https://imgur.com/TcB60Uk.jpg"
     },
     {
@@ -301,9 +281,8 @@ dataAnalysisCourses :[
         rating: 4.9,
         title: "ReactJS for Beginner",
         description: " Learn the fundamentals of building interactive user interfaces through hands-on exercises.",
-        learningTime: "5 weeks",
+        learningTime: "5 Weeks",
         numberOfLessons: 15,
-        path: "/courses/3",
         imgcourse:"https://imgur.com/3YpnxHS.png"
     },
    
@@ -313,8 +292,7 @@ dataAnalysisCourses :[
         title: "Responsive Web Design ",
         description: "Explore advanced techniques in responsive web design using CSS Grid, creating flexible and dynamic layouts.",
         numberOfLessons: 9,
-        learningTime: "3.5 weeks",
-        path: "/courses/34",
+        learningTime: "3.5 Weeks",
         imgcourse: "https://imgur.com/lGUrYAA.jpg"
     },
     {
@@ -323,8 +301,7 @@ dataAnalysisCourses :[
         title: "JavaScript Frameworks: Vue.js",
         description: "Dive into the Vue.js framework and learn how to build powerful and dynamic user interfaces with this popular JavaScript framework.",
         numberOfLessons: 11,
-        learningTime: "4 weeks",
-        path: "/courses/35",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/rDEJIjr.jpg"
     },
     {
@@ -333,8 +310,7 @@ dataAnalysisCourses :[
         title: "Web Animation CSS & JavaScript",
         description: "Master the art of creating captivating animations on the web using a combination of CSS and JavaScript.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/36",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/alT5vkG.jpg"
     },
     {
@@ -343,8 +319,7 @@ dataAnalysisCourses :[
         title: "Mobile App Development",
         description: "Master the art of Mobile App Development with our concise course for both iOS and Android platforms.",
         numberOfLessons: 15,
-        learningTime: "6 weeks",
-        path: "/courses/4",
+        learningTime: "6 Weeks",
         imgcourse: "https://imgur.com/esz86bS.jpg"
     },
     {
@@ -353,8 +328,7 @@ dataAnalysisCourses :[
         title: "Progressive Web Apps (PWA)",
         description: "Explore the principles and techniques behind building Progressive Web Apps, delivering a seamless and app-like experience on the web.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/38",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/Wtfjdiq.jpg"
     }
 ],
@@ -367,8 +341,7 @@ backendcourses : [
         title: "Node & Express JS",
         description: "Discover the core concepts of Node.js and Express.js in our brief course, exploring essential JavaScript technologies.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/5",
+        learningTime: "4 Weeks",
         imgcourse:"https://imgur.com/AWfyCQX.png"
     },
     // Additional back-end courses
@@ -379,8 +352,7 @@ backendcourses : [
         title: "Building RESTful APIs with Express",
         description: "Master the art of building RESTful APIs using Express.js, enabling seamless communication between front-end and back-end systems.",
         numberOfLessons: 11,
-        learningTime: "4 weeks",
-        path: "/courses/39",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/9urXvVd.jpg"
     },
     {
@@ -389,8 +361,7 @@ backendcourses : [
         title: "Java Spring Boot Fundamentals",
         description: "Explore the fundamentals of building web applications with Java Spring Boot, a powerful and widely-used Java framework.",
         numberOfLessons: 10,
-        learningTime: "4 weeks",
-        path: "/courses/40",
+        learningTime: "4 Weeks",
         imgcourse: "https://imgur.com/N7iswct.jpg"
     },
     {
@@ -399,8 +370,7 @@ backendcourses : [
         title: "GraphQL for Modern APIs",
         description: "Dive into GraphQL, a query language for APIs, and learn how to build flexible and efficient APIs for modern web applications.",
         numberOfLessons: 12,
-        learningTime: "5 weeks",
-        path: "/courses/41",
+        learningTime: "5 Weeks",
         imgcourse: "https://imgur.com/g9pEUOk.jpg"
     }
 ],
@@ -561,75 +531,3 @@ export const learningPaths = [
     },
 ]
 
-// Education Website Lesson Data
-export const lessons = [
-    {
-        LessonID: 1,
-        CourseID: 1,
-        Title: "Introduction to Programming Concepts",
-        Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
-        Order: 1
-    },
-    {
-        LessonID: 2,
-        CourseID: 1,
-        Title: "Variables and Data Types",
-        Content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        Order: 2
-    },
-    {
-        LessonID: 3,
-        CourseID: 2,
-        Title: "Web Development Basics",
-        Content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        Order: 1
-    },
-    {
-        LessonID: 4,
-        CourseID: 3,
-        Title: "Data Analysis Techniques",
-        Content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        Order: 3
-    },
-    {
-        LessonID: 5,
-        CourseID: 4,
-        Title: "Mobile App Design Principles",
-        Content: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        Order: 2
-    },
-]
-
-// Education Website Course Path Data
-export const coursePaths = [
-    {
-        CoursePathID: 1,
-        CourseID: 1,
-        PathID: 1,
-        Order: 1
-    },
-    {
-        CoursePathID: 2,
-        CourseID: 2,
-        PathID: 2,
-        Order: 2
-    },
-    {
-        CoursePathID: 3,
-        CourseID: 3,
-        PathID: 3,
-        Order: 1
-    },
-    {
-        CoursePathID: 4,
-        CourseID: 4,
-        PathID: 4,
-        Order: 2
-    },
-    {
-        CoursePathID: 5,
-        CourseID: 5,
-        PathID: 5,
-        Order: 1
-    },
-]
