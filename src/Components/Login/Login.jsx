@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Footer from '../Home/Footer';
 import { Link } from 'react-router-dom';
@@ -5,11 +6,9 @@ import "./Login.css"
 const Login = () => {
   return (
 <>
-<div className="container login-wrapper">
-    <div className="row">
-      <div className="col">
-        <div className="login-card">
-          <h3 className='login-title'>Login</h3>
+<div className="login-container">
+        <div className="form-box">
+          <h3 className='title'>Login</h3>
           <form action="">
             <div>
               <input type="email" name="email" placeholder='Email' className='form-control' />
@@ -22,12 +21,10 @@ const Login = () => {
             </div>
             <div className="justify-button">
               <button className='button '>Login</button>
-              <Link className="button-signup" to="/Signup">Sign Up</Link>
+              <Link className="button" to="/Signup">Sign Up</Link>
             </div>
           </form>
         </div>
-      </div>
-    </div>
 </div>
 <Footer />
 </>

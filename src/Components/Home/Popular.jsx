@@ -4,22 +4,25 @@ import Card from '../Card/Card';
 import { Link } from 'react-router-dom';
 import { IoTimeOutline } from 'react-icons/io5';
 import { CiVideoOn } from 'react-icons/ci';
-import { FaStar } from 'react-icons/fa'; // Import star icon from react-icons/fa
+import Star from '../Course/Star';
 
 
 
 const Popular = () => {
+  const { popularcourse} = courses;
+
   return (
     <section className='courses'>
       <div className='container courses_container'>
         <h1>Popular Course</h1>
         <div className='courses_wrapper'>
-          {courses.map(({ id,imgcourse, rating, title, description, numberOfLessons, learningTime, path }) => {
+          {popularcourse.map(({ id,imgcourse, rating, title, description, numberOfLessons, learningTime, path }) => {
             return (
               <Card className="courses_course" key={id}>
-                <img src={imgcourse} alt={`Course: ${title}`} className="course-image" />
-                <div className="rating">
-                  {renderStars(rating)}
+                <Link to ={`/courses/${id}`} >
+                <img src={imgcourse} alt={`Course: ${title}`} className="course-image" /></Link>
+                <div className="star-icon">
+                  {Star(rating)}
                 </div>
                 <h4>{title}</h4>
                 <p>{description}</p>
@@ -44,7 +47,7 @@ const Popular = () => {
   );
 };
 
-const renderStars = (rating) => {
+/*const renderStars = (rating) => {
   const stars = [];
   for (let i = 0; i < Math.floor(rating); i++) {
     stars.push(<FaStar key={i} className="star-icon" />);
@@ -55,5 +58,5 @@ const renderStars = (rating) => {
   }
   return stars;
 };
-
+*/
 export default Popular;

@@ -4,11 +4,9 @@ import "./Login.css"
 const Resetpassword = () => {
   return (
 <>
-<div className="container login-wrapper">
-    <div className="row">
-      <div className="col">
-        <div className="Signup-card">
-          <h3 className='Signup-title'>Reset Password</h3>
+<div className="login-container">
+        <div className="form-box">
+          <h3 className='title'>Reset Password</h3>
           <form action="">
             <div>
               <input type="password" name="password" placeholder='Password' className='form-control' />
@@ -21,8 +19,6 @@ const Resetpassword = () => {
             </div>
           </form>
         </div>
-      </div>
-    </div>
 </div>
 <Footer />
 </>

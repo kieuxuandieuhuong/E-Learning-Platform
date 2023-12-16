@@ -1,46 +1,61 @@
 // CoursesByCategory.js
 import React from 'react';
-import { uiUxCourses, businessAnalysisCourses, dataAnalysisCourses, frontEndCourses, backendcourses } from '../../data';
+import { courses } from '../../data';
 import Card from '../Card/Card';
 import { Link } from 'react-router-dom';
 import { IoTimeOutline } from 'react-icons/io5';
 import { CiVideoOn } from 'react-icons/ci';
-import { FaStar } from 'react-icons/fa';
+import Star from './Star';
+
 
 const CoursesByCategory = ({ category }) => {
-  let courses;
+  let course;
   switch (category) {
     case 'UI/UX':
-      courses = uiUxCourses;
+      course = courses.uiUxCourses;
       break;
     case 'Business Analysis':
-      courses = businessAnalysisCourses;
+      course = courses.businessAnalysisCourses;
       break;
     case 'Data Analysis':
-      courses = dataAnalysisCourses;
+      course = courses.dataAnalysisCourses;
       break;
     case 'Front-End':
-      courses = frontEndCourses;
+      course = courses.frontEndCourses;
       break;
     case 'Back-End':
-      courses = backendcourses;
+      course = courses.backendCourses; // Chú ý sửa lại tên biến cho đúng
       break;
     default:
-      courses = [];
+      course = [];
   }
-
+  
+  if (!Array.isArray(course)) {
+    return (
+      <section className='Courses'>
+        <div className='listcourse'>
+          <div className='container courses_container'>
+            <h1>{category} Courses</h1>
+            <p>No courses available for this category.</p>
+          </div>
+        </div>
+      </section>
+    );
+  }
   return (
     <section className='Courses'>
       <div className='listcourse'> 
       <div className='container courses_container'>
         <h1>{category} Courses</h1>
         <div className='courses_wrapper'>
-          {courses.map(({ id, imgcourse, rating, title, description, numberOfLessons, learningTime, path }) => {
+          {course.map(({ id, imgcourse, rating, title, description, numberOfLessons, learningTime, path }) => {
             return (
               <Card className="courses_course" key={id}>
-                <img src={imgcourse} alt={`Course: ${title}`} className="course-image" />
-                <div className="rating">
-                  {renderStars(rating)}
+                <Link to ={`/courses/${id}`} >
+                <img src={imgcourse} alt={`Course: ${title}`} className="course-image" /></Link>
+                <div className="star-icon">
+                  {/* {renderStars(rating)} */}
+                  {Star(rating)}
                 </div>
                 <h4>{title}</h4>
                 <p>{description}</p>
@@ -65,16 +80,16 @@ const CoursesByCategory = ({ category }) => {
   );
 };
 
-const renderStars = (rating) => {
-  const stars = [];
-  for (let i = 0; i < Math.floor(rating); i++) {
-    stars.push(<FaStar key={i} className="star-icon" />);
-  }
+// const renderStars = (rating) => {
+//   const stars = [];
+//   for (let i = 0; i < Math.floor(rating); i++) {
+//     stars.push(<FaStar key={i} className="star-icon" />);
+//   }
 
-  if (rating % 1 !== 0) {
-    stars.push(<FaStar key="half" className="star-icon" />);
-  }
-  return stars;
-};
+//   if (rating % 1 !== 0) {
+//     stars.push(<FaStar key="half" className="star-icon" />);
+//   }
+//   return stars;
+// };
 
 export default CoursesByCategory;
