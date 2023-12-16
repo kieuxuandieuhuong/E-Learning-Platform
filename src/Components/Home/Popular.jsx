@@ -16,7 +16,7 @@ const Popular = () => {
       <div className='container courses_container'>
         <h1>Popular Course</h1>
         <div className='courses_wrapper'>
-          {popularcourse.map(({ id,imgcourse, rating, title, description, numberOfLessons, learningTime, path }) => {
+          {popularcourse.map(({ id,imgcourse, rating, title, description, numberOfLessons, learningTime }) => {
             return (
               <Card className="courses_course" key={id}>
                 <Link to ={`/courses/${id}`} >
@@ -33,7 +33,7 @@ const Popular = () => {
                   <IoTimeOutline />{learningTime}
                 </span>
                 <div className='empty'>border</div>
-                <Link to={path} className='Learning_button'>
+                <Link to= {`/courses/${id} `} className='Learning_button'>
                   Enroll Now
                 </Link>
                 <big>Free</big>

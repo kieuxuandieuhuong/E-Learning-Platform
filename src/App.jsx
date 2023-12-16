@@ -32,7 +32,7 @@ const App = () => {
         <Route path='reset-password' element={<Resetpassword />} />
         <Route path='courses/UI-UX' element={<UIUX />} />
         <Route path='courses/:id' element={<Single />} />
-        <Route path='watch/:id' element={<Watchpage />} />
+        <Route path='lesson/:id' element={<Watchpage />} />
       </Routes>
       <ToastContainer
         position="top-right"
