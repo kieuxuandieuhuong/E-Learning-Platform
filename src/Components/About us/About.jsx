@@ -35,9 +35,6 @@ Join us on a journey of advanced and innovative learning, where knowledge is sha
       </div>
       </div>
      
-     
-      
-    <Footer />
   </>
   )
 }

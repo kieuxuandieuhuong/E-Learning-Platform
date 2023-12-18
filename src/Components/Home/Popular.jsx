@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 import { Link } from 'react-router-dom';
 import { IoTimeOutline } from 'react-icons/io5';
 import { CiVideoOn } from 'react-icons/ci';
-import Star from '../Course/Star';
+import ReactStars from 'react-stars';
 
 
 
@@ -22,7 +22,12 @@ const Popular = () => {
                 <Link to ={`/courses/${id}`} >
                 <img src={imgcourse} alt={`Course: ${title}`} className="course-image" /></Link>
                 <div className="star-icon">
-                  {Star(rating)}
+                <ReactStars
+  count={5}
+  value={rating}
+  edit={false}
+  size={24}
+  color2={'#ffd700'} />
                 </div>
                 <h4>{title}</h4>
                 <p>{description}</p>

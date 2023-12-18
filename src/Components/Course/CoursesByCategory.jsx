@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 import { Link } from 'react-router-dom';
 import { IoTimeOutline } from 'react-icons/io5';
 import { CiVideoOn } from 'react-icons/ci';
-import Star from './Star';
+import ReactStars from 'react-stars';
 
 
 const CoursesByCategory = ({ category }) => {
@@ -24,7 +24,7 @@ const CoursesByCategory = ({ category }) => {
       course = courses.frontEndCourses;
       break;
     case 'Back-End':
-      course = courses.backendCourses; // Chú ý sửa lại tên biến cho đúng
+      course = courses.backendcourses; // Chú ý sửa lại tên biến cho đúng
       break;
     default:
       course = [];
@@ -55,7 +55,12 @@ const CoursesByCategory = ({ category }) => {
                 <img src={imgcourse} alt={`Course: ${title}`} className="course-image" /></Link>
                 <div className="star-icon">
                   {/* {renderStars(rating)} */}
-                  {Star(rating)}
+                  <ReactStars
+  count={5}
+  value={rating}
+  edit={false}
+  size={24}
+  color2={'#ffd700'} />
                 </div>
                 <h4>{title}</h4>
                 <p>{description}</p>

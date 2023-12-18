@@ -3,8 +3,6 @@ import React from 'react';
 import { courses } from '../../data';
 import { useParams } from 'react-router-dom';
 import Courseinfor from './CourseSingle/Courseinfor';
-import Footer from '../Home/Footer';
-import LessonofCourse from './CourseSingle/LessonofCourse';
 
 const Single = () => {
   const { id } = useParams();
@@ -28,12 +26,12 @@ const Single = () => {
       {course ? (
         <div>
           <Courseinfor course={course} />
+          
         </div>
       ) : (
         <p>Course not found</p>
       )}
-      <LessonofCourse />
-      <Footer />
+     
     </>
   );
 };

@@ -22,7 +22,6 @@ const Course = () => {
       <CoursesByCategory category="Front-End" />
       <CoursesByCategory category="Back-End" />
       </div> 
-      <Footer />
     </>
   );
 }

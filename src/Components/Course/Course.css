@@ -52,11 +52,14 @@ input[type='text'] {
 }
  
   .category-button.active{
+    box-shadow: none;
     background: #1b60a0; 
     color: #fff; 
+    border: 7px solid #deedff;
   }
 
   .category-button {
+    display: flex; justify-content: center; align-items: center;
     color: #1b60a0;
     padding: 10px;
     border-radius: 10px;

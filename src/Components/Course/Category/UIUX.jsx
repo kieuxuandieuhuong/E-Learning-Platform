@@ -12,7 +12,7 @@ const UIUX = () => {
         <SearchBar />
       </div>
     <CoursesByCategory category="UI/UX"  />
-    <Footer />
+ 
     </>
   )
 }

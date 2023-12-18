@@ -337,7 +337,7 @@ backendcourses : [
     // Existing courses
     {
         id: 5,
-        rating: 5.0,
+        rating: 4.0,
         title: "Node & Express JS",
         description: "Discover the core concepts of Node.js and Express.js in our brief course, exploring essential JavaScript technologies.",
         numberOfLessons: 10,
@@ -348,7 +348,7 @@ backendcourses : [
    
     {
         id: 39,
-        rating: 4.8,
+        rating: 4.5,
         title: "Building RESTful APIs with Express",
         description: "Master the art of building RESTful APIs using Express.js, enabling seamless communication between front-end and back-end systems.",
         numberOfLessons: 11,

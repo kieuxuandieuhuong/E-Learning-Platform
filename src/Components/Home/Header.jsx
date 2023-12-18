@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Image from '../../Images/header.png';
+import headerimg from '../../Images/header.png';
 
 const Header = () => {
   return (
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className='main_header-right'>
         <div className='main_header-image'>
-            <img src={Image} alt ='Main Header Image'/>
+            <img src={headerimg} alt ='Main Header Image'/>
         </div>
         </div>
         

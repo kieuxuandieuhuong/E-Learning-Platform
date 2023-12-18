@@ -1,5 +1,6 @@
 .contact-container {
-    margin-top: 8rem;
+  height: calc(100vh - 3rem);
+    margin-top: 12rem;
     display: flex;
     height: 200px;
     justify-content: space-between;

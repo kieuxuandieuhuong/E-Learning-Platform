@@ -158,7 +158,6 @@ max-height: 120px; /* Độ cao tối đa */
 overflow: hidden;
 }
 .courses_course h4 {
-  margin-top: 1rem;
   color: #486284;
   /* Remove top margin for consistency */
 }
@@ -298,7 +297,7 @@ footer {
   margin-top: 7rem;
   background-color: #0C2945;
   color: #fff; /* Set text color to white */
-  padding: 20px 0;
+  padding:60px 0;
   font-size: 0.9rem;
 }
 

@@ -1,44 +1,41 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { NavLink, useParams } from 'react-router-dom';
 import { lessons } from '../../../datalesson';
 import { BsPlayCircle } from 'react-icons/bs';
 
-function LessonList() {
-  const { id } = useParams();
-
-  const getLessonsByCourseId = (courseId) => {
-    switch (courseId) {
-      case '6':
-        return lessons.uiUxCoursesLessons;
-      case '8':
-        return lessons.businessAnalysisCoursesLessons;
-      case '10':
-        return lessons.dataAnalysisCoursesLessons;
-      case '1':
-        return lessons.frontEndCoursesLessons;
-      case '5':
-        return lessons.backendCoursesLessons;
-      default:
-        return [];
-    }
+function getLessonsByCourseId(courseId) {
+  const lessonsByCourseId = {
+    '6': lessons.uiUxCoursesLessons,
+    '8': lessons.businessAnalysisCoursesLessons,
+    '10': lessons.dataAnalysisCoursesLessons,
+    '1': lessons.frontEndCoursesLessons,
+    '5': lessons.backendCoursesLessons,
   };
 
-  const courseLessons = getLessonsByCourseId(id);
+  return lessonsByCourseId[courseId] || [];
+}
+function LessonofCourse() {
+  const { id } = useParams();
+  const [courseLessons, setCourseLessons] = useState([]);
+
+  useEffect(() => {
+    setCourseLessons(getLessonsByCourseId(id));
+  }, [id]);
 
   return (
-    <div className='container courselesson_container'>
+    <div className='courselesson_container'>
       <h2>Course Lessons</h2>
       <ul className= 'lessoncard'>
         {courseLessons.map((lesson) => (
           <div className='lessoncolumn'>
-          <li className='lessonlist' key={lesson.id}>
-            <a href={lesson.videoURL} target="_blank" rel="noopener noreferrer">
-             {lesson.title}
-             <span className='lessonlisticon'><BsPlayCircle/></span>
-             <small>{lesson.description} </small>
-            </a>
-          </li>
-          <div className='emptystyle'></div>
+          
+        <NavLink to={`/lesson/${lesson.id}`} className='lessonlist'>
+        <div  className='playicon'><BsPlayCircle/></div>
+        <h3>{lesson.title}</h3> 
+        <small>{lesson.description} </small>
+        
+        </NavLink>
+          
           </div>
         ))}
       </ul>
@@ -46,4 +43,5 @@ function LessonList() {
   );
 }
 
-export default LessonList;
+export default LessonofCourse;
+
