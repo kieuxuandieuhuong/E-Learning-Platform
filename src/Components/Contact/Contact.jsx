@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Home/Footer';
 import { contactData } from '../../datahome';
 import "./Contact.css"; // Import CSS file
 import img26 from "../../Images/26.png";

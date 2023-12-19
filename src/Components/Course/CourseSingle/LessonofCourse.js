@@ -33,7 +33,6 @@ function LessonofCourse() {
         <div  className='playicon'><BsPlayCircle/></div>
         <h3>{lesson.title}</h3> 
         <small>{lesson.description} </small>
-        
         </NavLink>
           
           </div>

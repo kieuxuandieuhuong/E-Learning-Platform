@@ -27,18 +27,9 @@ function Courseinfor({ course }) {
         edit ={false}
         size={24}
         color2={'#ffd700'} />
-  <span> (2 Reviews )</span>
+  <span><a className='' href='#review' > (2 Reviews )</a></span>
   </div> 
   </div>
-      <div className='reviewlink'>
-      {
-            learncourse &&(
-                <div>
-                <a className='createreview' href='#review' >Write a Review</a>   
-                </div>
-            )
-        }
-      </div>
         </div></div>
           <p>{course.description}</p>
           <ul className="listsentence">
@@ -65,7 +56,7 @@ function Courseinfor({ course }) {
           <li> <BsClock className='iconvideo'/> {course.learningTime}{' '}</li>
           </div>
           
-          <Link to={`lesson/:id`} className="Enrollbtn">
+          <Link to={`/Login`} className="Enrollbtn">
             Enroll Now
           </Link>
         </div>

@@ -269,10 +269,10 @@
 .review-form{
     padding-bottom: 40px;
 }
-.form-control{
+.formcontrol{
     border-radius: 10px;
     padding: 12px;
-    max-width: 700px;
+    width: 700px;
     border: 1px solid #d0cfcf;
     margin-bottom: 1rem;
 }

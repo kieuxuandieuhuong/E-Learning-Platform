@@ -20,7 +20,7 @@ export const links = [
         name: "Contact",
         path: '/contact'
         
-    }
+    },
 ]
 export const Aboutus = [
     {

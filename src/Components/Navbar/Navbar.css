@@ -52,7 +52,10 @@ nav{
     width: 100%; 
                      
 }
-
+.userbtn{
+    color: #2377ff;
+    font-size: 30px;
+}
   
   /* ... Your existing CSS ... */
 @media screen and (max-width: 1024px) {

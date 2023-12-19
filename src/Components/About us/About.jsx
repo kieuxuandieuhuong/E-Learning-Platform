@@ -1,6 +1,5 @@
 import React from 'react'
 import "./About.css"
-import Footer from '../Home/Footer'
 import { Aboutus } from '../../datahome'
 import posterimg from "../../Images/poster.png" 
 

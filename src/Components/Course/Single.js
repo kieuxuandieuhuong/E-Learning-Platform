@@ -26,7 +26,6 @@ const Single = () => {
       {course ? (
         <div>
           <Courseinfor course={course} />
-          
         </div>
       ) : (
         <p>Course not found</p>

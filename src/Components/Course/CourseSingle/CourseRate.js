@@ -44,9 +44,8 @@ function CourseRate() {
                 <div> <textarea 
                     name=''
                     id=''
-                    className='form-control'
-                    cols="100"
-                    rows="4"
+                    className='formcontrol'
+                    rows="5"
                     placeholder='Comments'></textarea>
                 </div>
                 <button className='btn'>Submit</button>
