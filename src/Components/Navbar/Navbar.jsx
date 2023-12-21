@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import logo from '../../Images/logo.png';
 import { links } from '../../datahome';
 import { FaUserLarge } from "react-icons/fa6";
+import { ToastContainer,toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import './Navbar.css';
@@ -43,6 +45,17 @@ const Navbar = () => {
           </Link>
         {/* )} */}
       </div>
+      <ToastContainer
+            position="top-right"
+            autoClose={1000}
+            hideProgressBar={true}
+            newestOnTop={true}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            theme="light"
+          />
     </nav>
   );
 };

@@ -2,17 +2,19 @@ import axios from "axios";
 import { base_url } from "../../untils/axiosConfig";
 
 const register = async (userData) => {
-    try {
       const response = await axios.post(`${base_url}user/register`, userData);
-      if (response.data) {
         return response.data;
-      }
-    } catch (error) {
-      throw new Error(error.message);
-    }
   };
+
+  const login = async (userData) => {
+    const response = await axios.post(`${base_url}user/login`, userData);
+      return response.data;
+ 
+};
+
   
   export const authService = {
     register,
+    login
   };
   

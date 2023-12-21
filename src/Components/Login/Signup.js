@@ -66,7 +66,12 @@ const Signup = () => {
             <div className="error">{formik.touched.password && formik.errors.password}</div>
                       
             <div className="justify-button">    
-              <Link to = '#' className='button'>Sign Up</Link>
+            <button
+            className="button"
+            type="submit"
+          >
+            Sign Up
+          </button>
             </div>
             <div className="Register">
             <p>Already have an account ?

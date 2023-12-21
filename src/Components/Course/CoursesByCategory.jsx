@@ -8,7 +8,8 @@ import { CiVideoOn } from 'react-icons/ci';
 import ReactStars from 'react-stars';
 
 
-const CoursesByCategory = ({ category }) => {
+const CoursesByCategory = ({ data,category }) => {
+
   let course;
   switch (category) {
     case 'UI/UX':
@@ -42,7 +43,10 @@ const CoursesByCategory = ({ category }) => {
       </section>
     );
   }
-  return (
+
+  
+  return ( 
+<>
     <section className='Courses'>
       <div className='listcourse'> 
       <div className='container courses_container'>
@@ -56,11 +60,11 @@ const CoursesByCategory = ({ category }) => {
                 <div className="star-icon">
                   {/* {renderStars(rating)} */}
                   <ReactStars
-  count={5}
-  value={rating}
-  edit={false}
-  size={24}
-  color2={'#ffd700'} />
+                count={5}
+                value={rating}
+                edit={false}
+                size={24}
+                color2={'#ffd700'} />
                 </div>
                 <h4>{title}</h4>
                 <p>{description}</p>
@@ -82,6 +86,7 @@ const CoursesByCategory = ({ category }) => {
       </div>
       </div>
     </section>
+    </>
   );
 };
 
